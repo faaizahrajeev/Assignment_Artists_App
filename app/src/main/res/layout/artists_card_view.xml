@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    app:cardCornerRadius="10dp">
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="30dp">
 
 <!--for multiple ui elements, we use relative layout
 padding is for the borders-->
@@ -13,6 +15,7 @@ padding is for the borders-->
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!--Song Name title text view-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,7 +25,8 @@ padding is for the borders-->
             android:id="@+id/SongName"
             android:textColor="@color/purple_700"
             android:textStyle="bold" />
-        
+
+        <!--Artist Name text view-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,6 +37,7 @@ padding is for the borders-->
             android:textStyle="bold|italic"
             android:textColor="@color/purple_700"/>
         
+        <!--Song or Album cover pic-->
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
