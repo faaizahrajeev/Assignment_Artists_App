@@ -36,7 +36,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
 
     // next 2 are for importing glide dependency for putting url in image view
-    // glide dependency - using images from the internet
+    // glide dependencies - using images from the internet
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
